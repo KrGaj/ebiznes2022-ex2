@@ -1,0 +1,4 @@
+[warn] /mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/project/Common.scala:27:19: method in in trait ScopingSetting is deprecated (since 1.5.0): `in` is deprecated; migrate to slash syntax - https://www.scala-sbt.org/1.x/docs/Migrating-from-sbt-013x.html#slash
+[warn]     scalacOptions in Test ++= Seq("-Yrangepos"),
+[warn]                   ^
+[warn] one warning found

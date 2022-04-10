@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="N/A" external.linked.project.path="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2" external.root.project.path="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2" external.system.id="SBT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../..">
+      <excludeFolder url="file://$MODULE_DIR$/../../target" />
+      <excludeFolder url="file://$MODULE_DIR$/../../project/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
