@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4acf9ade-5fac-4f9f-8b03-3601c3cc089e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/PostRouterSpec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/test/api/PostRouterSpec.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/cart/CartRepository.scala" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/cart/CartRepository.scala" afterDir="false" />
       <change beforePath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/.idea/workspace.xml" beforeDir="false" afterPath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/test/controllers/PostRouterSpec.scala" beforeDir="false" afterPath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/test/api/PostRouterSpec.scala" afterDir="false" />
+      <change beforePath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/app/api/cart/CartRepository.scala" beforeDir="false" afterPath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/app/api/cart/CartRepository.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +108,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1649626259895</updated>
-      <workItem from="1649626261116" duration="2226000" />
+      <workItem from="1649626261116" duration="4052000" />
     </task>
     <servers />
   </component>

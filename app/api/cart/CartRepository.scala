@@ -2,6 +2,7 @@ package api.cart
 
 import javax.inject.{Inject, Singleton}
 import akka.actor.ActorSystem
+import api.product.ProductId
 import play.api.libs.concurrent.CustomExecutionContext
 import play.api.{Logger, MarkerContext}
 
