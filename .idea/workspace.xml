@@ -5,74 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4acf9ade-5fac-4f9f-8b03-3601c3cc089e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/play-scala-rest-api-example-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/play-scala-rest-api-example-build.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/play-scala-rest-api-example.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/play-scala-rest-api-example.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$75580b9fac62d73d870e$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$75580b9fac62d73d870e.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$75580b9fac62d73d870e.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$bcbf3ef8a88e249d9e97$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$bcbf3ef8a88e249d9e97.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$bcbf3ef8a88e249d9e97.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$d28ec25e75490a39f9d3$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$d28ec25e75490a39f9d3.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$d28ec25e75490a39f9d3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$f590c730c0bd22744e33$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$f590c730c0bd22744e33.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$f590c730c0bd22744e33.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/sync/copy-resource" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/sync/copy-resource" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/zinc/inc_compile_2.12.zip" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/zinc/inc_compile_2.12.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/incOptions/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/incOptions/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/.history3" beforeDir="false" afterPath="$PROJECT_DIR$/target/.history3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" afterDir="false" />
-      <change beforePath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/.idea/modules.xml" beforeDir="false" afterPath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/.idea/modules.xml" afterDir="false" />
-      <change beforePath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/.idea/modules/play-scala-rest-api-example-build.iml" beforeDir="false" afterPath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/.idea/modules/play-scala-rest-api-example-build.iml" afterDir="false" />
-      <change beforePath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/.idea/modules/play-scala-rest-api-example.iml" beforeDir="false" afterPath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/.idea/modules/play-scala-rest-api-example.iml" afterDir="false" />
-      <change beforePath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/.idea/vcs.xml" beforeDir="false" afterPath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/PostRouterSpec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/test/api/PostRouterSpec.scala" afterDir="false" />
       <change beforePath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/.idea/workspace.xml" beforeDir="false" afterPath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/project/project/target/config-classes/$75580b9fac62d73d870e$.class" beforeDir="false" />
-      <change beforePath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/project/project/target/config-classes/$75580b9fac62d73d870e.cache" beforeDir="false" />
-      <change beforePath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/project/project/target/config-classes/$75580b9fac62d73d870e.class" beforeDir="false" />
-      <change beforePath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/project/project/target/config-classes/$bcbf3ef8a88e249d9e97$.class" beforeDir="false" />
-      <change beforePath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/project/project/target/config-classes/$bcbf3ef8a88e249d9e97.cache" beforeDir="false" />
-      <change beforePath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/project/project/target/config-classes/$bcbf3ef8a88e249d9e97.class" beforeDir="false" />
-      <change beforePath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/project/project/target/config-classes/$d28ec25e75490a39f9d3$.class" beforeDir="false" />
-      <change beforePath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/project/project/target/config-classes/$d28ec25e75490a39f9d3.cache" beforeDir="false" />
-      <change beforePath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/project/project/target/config-classes/$d28ec25e75490a39f9d3.class" beforeDir="false" />
-      <change beforePath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/project/project/target/config-classes/$f590c730c0bd22744e33$.class" beforeDir="false" />
-      <change beforePath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/project/project/target/config-classes/$f590c730c0bd22744e33.cache" beforeDir="false" />
-      <change beforePath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/project/project/target/config-classes/$f590c730c0bd22744e33.class" beforeDir="false" />
-      <change beforePath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/project/target/scala-2.12/sbt-1.0/sync/copy-resource" beforeDir="false" afterPath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/project/target/scala-2.12/sbt-1.0/sync/copy-resource" afterDir="false" />
-      <change beforePath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" beforeDir="false" afterPath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" afterDir="false" />
-      <change beforePath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/project/target/scala-2.12/sbt-1.0/zinc/inc_compile_2.12.zip" beforeDir="false" afterPath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/project/target/scala-2.12/sbt-1.0/zinc/inc_compile_2.12.zip" afterDir="false" />
-      <change beforePath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/project/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/project/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
-      <change beforePath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/project/target/streams/compile/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/project/target/streams/compile/dependencyClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/project/target/streams/compile/incOptions/_global/streams/out" beforeDir="false" afterPath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/project/target/streams/compile/incOptions/_global/streams/out" afterDir="false" />
-      <change beforePath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/project/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" afterPath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/project/target/streams/compile/managedClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/project/target/streams/runtime/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/project/target/streams/runtime/dependencyClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/project/target/streams/runtime/fullClasspath/_global/streams/export" beforeDir="false" afterPath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/project/target/streams/runtime/fullClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/project/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" afterPath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/project/target/streams/runtime/managedClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/target/.history3" beforeDir="false" afterPath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/target/.history3" afterDir="false" />
-      <change beforePath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/target/scala-2.13/update/update_cache_2.13/inputs" beforeDir="false" afterPath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/target/scala-2.13/update/update_cache_2.13/inputs" afterDir="false" />
-      <change beforePath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/target/scala-2.13/update/update_cache_2.13/output" beforeDir="false" afterPath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/target/scala-2.13/update/update_cache_2.13/output" afterDir="false" />
-      <change beforePath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" afterPath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/target/streams/_global/_global/csrLogger/_global/streams/out" afterDir="false" />
+      <change beforePath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/test/controllers/PostRouterSpec.scala" beforeDir="false" afterPath="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2/test/api/PostRouterSpec.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +24,13 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Worksheet" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="/mnt/E27E05707E053EB3/Dokumenty/Studia_FAIS/Magisterskie/IV_semest/ebiznes2022/ex2" />
@@ -116,6 +61,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -164,11 +110,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1649626259895</updated>
-      <workItem from="1649626261116" duration="736000" />
+      <workItem from="1649626261116" duration="2226000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
