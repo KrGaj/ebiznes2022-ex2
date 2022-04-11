@@ -14,9 +14,9 @@ case class CartFormInput(title: String, body: String, productId: String)
 /**
   * Takes HTTP requests and produces JSON.
   */
-class CartController @Inject()(cc: PostControllerComponents)(
+class CartController @Inject()(cc: CartControllerComponents)(
   implicit ec: ExecutionContext)
-  extends PostBaseController(cc) {
+  extends CartBaseController(cc) {
 
   private val logger = Logger(getClass)
 
@@ -32,22 +32,22 @@ class CartController @Inject()(cc: PostControllerComponents)(
     )
   }
 
-  def index: Action[AnyContent] = PostAction.async { implicit request =>
+  def index: Action[AnyContent] = CartAction.async { implicit request =>
     logger.trace("index: ")
-    postResourceHandler.find.map { posts =>
+    cartResourceHandler.find.map { posts =>
       Ok(Json.toJson(posts))
     }
   }
 
-  def process: Action[AnyContent] = PostAction.async { implicit request =>
+  def process: Action[AnyContent] = CartAction.async { implicit request =>
     logger.trace("process: ")
     processJsonPost()
   }
 
-  def show(id: String): Action[AnyContent] = PostAction.async {
+  def show(id: String): Action[AnyContent] = CartAction.async {
     implicit request =>
       logger.trace(s"show: id = $id")
-      postResourceHandler.lookup(id).map { post =>
+      cartResourceHandler.lookup(id).map { post =>
         Ok(Json.toJson(post))
       }
   }
@@ -59,7 +59,7 @@ class CartController @Inject()(cc: PostControllerComponents)(
     }
 
     def success(input: CartFormInput) = {
-      cartResouceHandler.create(input).map { post =>
+      cartResourceHandler.create(input).map { post =>
         Created(Json.toJson(post)).withHeaders(LOCATION -> post.link)
       }
     }

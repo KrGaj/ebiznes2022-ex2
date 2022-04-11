@@ -1,11 +1,12 @@
 package api.cart
 
+import api.product.ProductId
+
 import javax.inject.{Inject, Provider}
 import play.api.MarkerContext
 
 import scala.concurrent.{ExecutionContext, Future}
 import play.api.libs.json._
-import v1.post.PostFormInput
 
 /**
   * DTO for displaying post information.
@@ -23,13 +24,13 @@ object CartResource {
 /**
   * Controls access to the backend data, returning [[CartResource]]
   */
-class PostResourceHandler @Inject()(
-                                     routerProvider: Provider[PostRouter],
+class CartResourceHandler @Inject()(
+                                     routerProvider: Provider[CartRouter],
                                      cartRepository: CartRepository)(implicit ec: ExecutionContext) {
 
-  def create(postInput: PostFormInput)(
+  def create(cartInput: CartFormInput)(
     implicit mc: MarkerContext): Future[CartResource] = {
-    val data = CartData(CartId("999"), postInput.title, postInput.body)
+    val data = CartData(CartId("999"), cartInput.title, cartInput.body, ProductId(cartInput.productId))
     // We don't actually create the post, so return what we have
     cartRepository.create(data).map { id =>
       createPostResource(data)
