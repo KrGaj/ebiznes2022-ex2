@@ -11,7 +11,7 @@ import play.api.libs.json._
 /**
   * DTO for displaying post information.
   */
-case class CartResource(id: String, link: String, title: String, body: String)
+case class CartResource(id: String, link: String, title: String, body: String, productId: String)
 
 object CartResource {
   /**
@@ -54,7 +54,7 @@ class CartResourceHandler @Inject()(
   }
 
   private def createPostResource(p: CartData): CartResource = {
-    CartResource(p.id.toString, routerProvider.get.link(p.id), p.title, p.body)
+    CartResource(p.id.toString, routerProvider.get.link(p.id), p.title, p.body, p.productId.toString)
   }
 
 }
