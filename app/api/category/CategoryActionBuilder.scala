@@ -61,12 +61,12 @@ class CategoryActionBuilder @Inject()(messagesApi: MessagesApi,
 
   override val parser: BodyParser[AnyContent] = playBodyParsers.anyContent
 
-  type PostRequestBlock[A] = CategoryRequest[A] => Future[Result]
+  type CategoryRequestBlock[A] = CategoryRequest[A] => Future[Result]
 
   private val logger = Logger(this.getClass)
 
   override def invokeBlock[A](request: Request[A],
-                              block: PostRequestBlock[A]): Future[Result] = {
+                              block: CategoryRequestBlock[A]): Future[Result] = {
     // Convert to marker context and use request in block
     implicit val markerContext: MarkerContext = requestHeaderToMarkerContext(
       request)

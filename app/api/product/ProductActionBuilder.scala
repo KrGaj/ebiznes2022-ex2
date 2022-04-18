@@ -1,4 +1,4 @@
-package api.cart
+package api.product
 
 import javax.inject.Inject
 
@@ -16,12 +16,12 @@ import scala.concurrent.{ExecutionContext, Future}
   * This is commonly used to hold request-specific information like
   * security credentials, and useful shortcut methods.
   */
-trait CartRequestHeader
+trait ProductRequestHeader
   extends MessagesRequestHeader
     with PreferredMessagesProvider
-class CartRequest[A](request: Request[A], val messagesApi: MessagesApi)
+class ProductRequest[A](request: Request[A], val messagesApi: MessagesApi)
   extends WrappedRequest(request)
-    with CartRequestHeader
+    with ProductRequestHeader
 
 /**
   * Provides an implicit marker that will show the request in all logger statements.
@@ -52,27 +52,27 @@ trait RequestMarkerContext {
   * the request with contextual data, and manipulate the
   * result.
   */
-class CartActionBuilder @Inject()(messagesApi: MessagesApi,
-                                  playBodyParsers: PlayBodyParsers)(
+class ProductActionBuilder @Inject()(messagesApi: MessagesApi,
+                                     playBodyParsers: PlayBodyParsers)(
                                    implicit val executionContext: ExecutionContext)
-  extends ActionBuilder[CartRequest, AnyContent]
+  extends ActionBuilder[ProductRequest, AnyContent]
     with RequestMarkerContext
     with HttpVerbs {
 
   override val parser: BodyParser[AnyContent] = playBodyParsers.anyContent
 
-  type CartRequestBlock[A] = CartRequest[A] => Future[Result]
+  type ProductRequestBlock[A] = ProductRequest[A] => Future[Result]
 
   private val logger = Logger(this.getClass)
 
   override def invokeBlock[A](request: Request[A],
-                              block: CartRequestBlock[A]): Future[Result] = {
+                              block: ProductRequestBlock[A]): Future[Result] = {
     // Convert to marker context and use request in block
     implicit val markerContext: MarkerContext = requestHeaderToMarkerContext(
       request)
     logger.trace(s"invokeBlock: ")
 
-    val future = block(new CartRequest(request, messagesApi))
+    val future = block(new ProductRequest(request, messagesApi))
 
     future.map { result =>
       request.method match {
@@ -91,27 +91,27 @@ class CartActionBuilder @Inject()(messagesApi: MessagesApi,
   * This is a good way to minimize the surface area exposed to the controller, so the
   * controller only has to have one thing injected.
   */
-case class CartControllerComponents @Inject()(
-                                               cartActionBuilder: CartActionBuilder,
-                                               cartResourceHandler: CartResourceHandler,
-                                               actionBuilder: DefaultActionBuilder,
-                                               parsers: PlayBodyParsers,
-                                               messagesApi: MessagesApi,
-                                               langs: Langs,
-                                               fileMimeTypes: FileMimeTypes,
-                                               executionContext: scala.concurrent.ExecutionContext)
+case class ProductControllerComponents @Inject()(
+                                                  productActionBuilder: ProductActionBuilder,
+                                                  productResourceHandler: PostResourceHandler,
+                                                  actionBuilder: DefaultActionBuilder,
+                                                  parsers: PlayBodyParsers,
+                                                  messagesApi: MessagesApi,
+                                                  langs: Langs,
+                                                  fileMimeTypes: FileMimeTypes,
+                                                  executionContext: scala.concurrent.ExecutionContext)
   extends ControllerComponents
 
 /**
   * Exposes actions and handler to the PostController by wiring the injected state into the base class.
   */
-class CartBaseController @Inject()(pcc: CartControllerComponents)
+class ProductBaseController @Inject()(pcc: ProductControllerComponents)
   extends BaseController
     with RequestMarkerContext {
   override protected def controllerComponents: ControllerComponents = pcc
 
-  def CartAction: CartActionBuilder = pcc.cartActionBuilder
+  def ProductAction: ProductActionBuilder = pcc.productActionBuilder
 
-  def cartResourceHandler: CartResourceHandler = pcc.cartResourceHandler
+  def productResourceHandler: PostResourceHandler = pcc.productResourceHandler
 }
 

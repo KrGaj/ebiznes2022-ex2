@@ -10,7 +10,7 @@ import play.api.routing.sird._
   * Routes and URLs to the PostResource controller.
   */
 class CategoryRouter @Inject()(controller: CategoryController) extends SimpleRouter {
-  val prefix = "/v1/posts"
+  val prefix = "/api/category"
 
   def link(id: CategoryId): String = {
     import io.lemonlabs.uri.dsl._
