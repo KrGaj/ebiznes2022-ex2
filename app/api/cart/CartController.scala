@@ -53,7 +53,7 @@ class CartController @Inject()(cc: CartControllerComponents)(
   }
 
   private def processJsonPost[A]()(
-    implicit request: PostRequest[A]): Future[Result] = {
+    implicit request: CartRequest[A]): Future[Result] = {
     def failure(badForm: Form[CartFormInput]) = {
       Future.successful(BadRequest(badForm.errorsAsJson))
     }

@@ -25,8 +25,8 @@ object CartResource {
   * Controls access to the backend data, returning [[CartResource]]
   */
 class CartResourceHandler @Inject()(
-                                     routerProvider: Provider[CartRouter],
-                                     cartRepository: CartRepository)(implicit ec: ExecutionContext) {
+    routerProvider: Provider[CartRouter],
+    cartRepository: CartRepository)(implicit ec: ExecutionContext) {
 
   def create(cartInput: CartFormInput)(
     implicit mc: MarkerContext): Future[CartResource] = {
